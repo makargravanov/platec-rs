@@ -195,7 +195,7 @@ mod tests {
     }
 
     #[test]
-    fn small_map_reaches_each_generation_stage() {
+    fn runtime_sized_map_reaches_each_generation_stage() {
         let config = PlatecConfig {
             seed: 17,
             width: 448,
