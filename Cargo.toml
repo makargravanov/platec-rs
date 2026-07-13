@@ -1,0 +1,9 @@
+[package]
+name = "platec-rs"
+version = "0.1.0"
+edition = "2024"
+license = "LGPL-2.1-or-later"
+description = "Rust port of Mindwerks Plate Tectonics with a one-shot C ABI"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
